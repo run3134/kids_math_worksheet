@@ -139,7 +139,7 @@ def out2txt(cur_worksheet, idxs=1, space_after_each_row=5):
 if __name__ == "__main__":
 
     # total number work sheet
-    total_num_worksheet = 5
+    total_num_worksheet = 1
 
 
     for i in range(total_num_worksheet):
