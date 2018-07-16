@@ -97,10 +97,13 @@ def generateAlternateAddSubMulAll(totNum_op = 108, num2cal = 2):
     for i in range(totNum_op):
         cur_line = i/9
         if cur_line%3==0:
+            #print("gen add")
             opPool.append(generateOneAdd(num2cal))
         elif cur_line%3==1:
+            #print("gen sub")
             opPool.append(generateOneSub(num2cal))
         else:
+            #print("gen mul")
             opPool.append(generateOneMul(num2cal))
 
     numAdd_eachLine = 9
